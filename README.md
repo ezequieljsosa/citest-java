@@ -1,4 +1,7 @@
 # citest-java
+
+[![Build Status](https://www.travis-ci.com/ezequieljsosa/citest-java.svg?branch=main)](https://www.travis-ci.com/ezequieljsosa/citest-java)
+
 Ejemplo Tavis-Maven
 
 El proyecto consiste en una clase que multiplica un numero por 2.
