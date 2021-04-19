@@ -4,7 +4,7 @@ jdk:
 sudo: false
 deploy:
   provider: script
-  script: bash docker_push
+  script: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin && docker push ezequieljsosa/citest
   on:
     branch: dockerhub_deploy
 
