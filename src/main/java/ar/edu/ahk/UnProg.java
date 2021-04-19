@@ -8,7 +8,9 @@ public class UnProg {
 
     public static void main(String[] args){
         UnProg up = new UnProg();
-        System.out.print(up.hacerAlgo(15));
+        System.out.print("xxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
+        System.out.print(up.hacerAlgo(Integer.parseInt(args[0])));
+        System.out.print("\nxxxxxxxxxxxxxxxxxxxxxxxxxxx\n");
     }
 
 }
