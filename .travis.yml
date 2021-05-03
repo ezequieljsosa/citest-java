@@ -4,6 +4,7 @@ jdk:
 sudo: false
 deploy:
   provider: heroku
+  app: web-ahk
   api_key:
     secure: ${HEROKU_DEPLOY_TOKEN}
   on:
